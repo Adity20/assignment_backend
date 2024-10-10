@@ -9,7 +9,7 @@ const cors = require('cors');
 const app = express();
 const PORT = process.env.PORT || 5000;
 app.use(cors({
-    origin: 'http://localhost:3000' // Replace with your frontend's URL
+    origin: 'https://assignmentcrypto.netlify.app/' // Replace with your frontend's URL
   }));
 // Connect to MongoDB
 connectDB();
